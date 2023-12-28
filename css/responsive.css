@@ -1,5 +1,5 @@
 /* Small devices such as large phones (640px and up) */
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 767px) {
   .header {
     height: 350px !important;
   }
@@ -42,7 +42,12 @@
   .team-card {
     height: 400px !important;
   }
-  .container-mission {
+  ._box {
+    height: auto !important;
+    margin-bottom: 3rem;
+  }
+
+  /* .container-mission {
     height: auto !important;
     display: flex !important;
     align-items: start !important;
@@ -54,15 +59,18 @@
   .content-mission {
     width: 100% !important;
   }
-  .content-mission {
-    padding: 0 !important;
+
+  .__c3 .cover-mission {
+    background: red !important;
+    height: auto !important;
   }
   .content-mission h4 {
     text-align: center;
   }
   .content-mission p {
     text-align: justify;
-  }
+  } */
+
   ._big {
     width: 100% !important;
   }
@@ -113,28 +121,9 @@
   .btn-don {
     width: 80% !important;
   }
-  .container-mission {
-    background: none !important;
-  }
-  ._c2 {
-    display: flex !important;
-    flex-direction: column;
+  ._box {
     height: auto !important;
-    padding: 2rem 0 2rem 0 !important;
-  }
-  ._c2 .cover-mission {
-    height: 400px !important;
-  }
-  ._c1 {
-    height: 500px !important;
-  }
-  ._c2 .content-mission,
-  ._c2 .cover-mission {
-    width: 100% !important;
-  }
-  ._c3 {
-    height: 400px !important;
-    padding: 2rem 0 2rem 0;
+    margin-bottom: 3rem;
   }
   footer a,
   footer p {
@@ -154,14 +143,11 @@
   .audio-cover {
     height: 150px !important;
   }
-  ._c1 {
-    height: 400px !important;
+  ._box {
+    height: auto !important;
   }
-  ._c2 {
-    height: 600px !important;
-  }
-  ._c3 {
-    height: 350px !important;
+  ._box ._content {
+    padding: 0 2rem 0 2rem !important;
   }
 }
 

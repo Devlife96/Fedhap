@@ -56,7 +56,12 @@ a {
   background: #ed502e;
   margin: auto;
 }
-
+._container-mission {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
 /* navbar custom */
 .page-wrap:before {
   transition: 0.3s all ease-in-out;
