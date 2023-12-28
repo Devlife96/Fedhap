@@ -1,0 +1,170 @@
+/* Small devices such as large phones (640px and up) */
+@media screen and (max-width: 764px) {
+  .header {
+    height: 350px !important;
+  }
+  .mid-header {
+    height: 200px !important;
+  }
+
+  .header h2 {
+    margin-top: -1rem !important;
+    font-size: 2.5rem !important;
+  }
+
+  .box-content,
+  .box {
+    height: 200px !important;
+  }
+  .text-about {
+    font-size: 1rem !important;
+  }
+  .about-card {
+    text-align: center;
+  }
+  .about-card h4 {
+    text-align: center;
+  }
+  .about-card .card-number {
+    margin: auto;
+  }
+  .audio-cover {
+    height: 150px !important;
+  }
+  .headline-don,
+  .headline-team,
+  .headline-faq {
+    width: 80% !important;
+  }
+  .btn-don {
+    width: 80% !important;
+  }
+  .team-card {
+    height: 400px !important;
+  }
+  .container-mission {
+    height: auto !important;
+    display: flex !important;
+    align-items: start !important;
+    flex-direction: column;
+    padding: 2rem 0 2rem 0;
+    background: none !important;
+  }
+  .cover-mission,
+  .content-mission {
+    width: 100% !important;
+  }
+  .content-mission {
+    padding: 0 !important;
+  }
+  .content-mission h4 {
+    text-align: center;
+  }
+  .content-mission p {
+    text-align: justify;
+  }
+  ._big {
+    width: 100% !important;
+  }
+  footer a,
+  footer p {
+    font-size: 1rem !important;
+  }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media screen and (max-width: 992px) {
+  .mobile-view {
+    width: 600px;
+  }
+  .header {
+    height: 350px !important;
+  }
+  .header h2 {
+    font-size: 2.5rem !important;
+  }
+  .header .text-about {
+    font-size: 1rem !important;
+  }
+  .mid-header {
+    height: 200px !important;
+  }
+  .box-content,
+  .box {
+    height: 400px;
+  }
+  .about-card {
+    text-align: center;
+  }
+  .about-card h4 {
+    text-align: center;
+  }
+  .about-card .card-number {
+    margin: auto;
+  }
+  .audio-cover {
+    height: 200px !important;
+  }
+  .headline-don,
+  .headline-team,
+  .headline-faq {
+    width: 80% !important;
+  }
+  .btn-don {
+    width: 80% !important;
+  }
+  .container-mission {
+    background: none !important;
+  }
+  ._c2 {
+    display: flex !important;
+    flex-direction: column;
+    height: auto !important;
+    padding: 2rem 0 2rem 0 !important;
+  }
+  ._c2 .cover-mission {
+    height: 400px !important;
+  }
+  ._c1 {
+    height: 500px !important;
+  }
+  ._c2 .content-mission,
+  ._c2 .cover-mission {
+    width: 100% !important;
+  }
+  ._c3 {
+    height: 400px !important;
+    padding: 2rem 0 2rem 0;
+  }
+  footer a,
+  footer p {
+    font-size: 1rem !important;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 1024px) {
+  /* .header h2 {
+    font-size: 4rem !important;
+  } */
+  .mid-header {
+    height: 200px !important;
+  }
+
+  .audio-cover {
+    height: 150px !important;
+  }
+  ._c1 {
+    height: 400px !important;
+  }
+  ._c2 {
+    height: 600px !important;
+  }
+  ._c3 {
+    height: 350px !important;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {
+}

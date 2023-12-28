@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/utilities.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <header class="">
+       <div class="page-wrap fixed-top">
+        <div class="nav-style">
+          <div class="mobile-view">
+            <div class="mobile-view-header">
+              <div class="mobile-view-close">
+                <i class="fa-solid fa-xmark close js-toggle"></i>
+              </div>
+              <div class="mobile-view-body"></div>
+            </div>
+          </div>
+          <nav class="navbar navbar-expand-lg">
+              <div class="container">
+                  <a href="../index.html" class="navbar-brand">
+                    <img src="../img/logo/logo.png" alt="" srcset="" />
+                  </a>
+                 <div class="d-inline-block d-lg-none ml-md-0 ml-auto">
+                  <div class="menu-block">
+                      <span><i class="fa-solid fa-bars menu js-toggle"></i></span>
+                  </div>
+               </div>
+                 <div class="d-none d-lg-block">
+                   <ul class="navbar-nav ml-lg-auto js-clone-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Accueil</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link flex-align-center gap-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <span>A Propos</span>
+                          <span><i class="fa-solid fa-angle-down fs-12 mt-1"></i></span>
+                        </a>
+                        <ul class="dropdown-menu rounded-1 mt-3">
+                          <li><a class="dropdown-item" href="about.html">Qui sommes nous?</a></li>
+                          <li><a class="dropdown-item" href="mission.html">Notre Mission</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link flex-align-center gap-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <span>Ressources</span>
+                          <span><i class="fa-solid fa-angle-down fs-12 mt-1"></i></span>
+                        </a>
+                        <ul class="dropdown-menu rounded-1 mt-3">
+                          <li><a class="dropdown-item" href="multimedia.html">Multimedia</a></li>
+                          <li><a class="dropdown-item" href="partenership.html">Patenership</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link flex-align-center gap-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <span>Feedback</span>
+                          <span><i class="fa-solid fa-angle-down fs-12 mt-1"></i></span>
+                        </a>
+                        <ul class="dropdown-menu rounded-1 mt-3">
+                          <li><a class="dropdown-item" href="#">Feedback Paysan</a></li>
+                          <li><a class="dropdown-item" href="#">Feedback DDP</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                         <button class="btn btn-custom bg-yellow text-white py-2 rounded-1 px-4">Faire un don</button>
+                      </li>
+                   </ul>
+                  
+                 </div>
+              </div>
+          </nav>
+        </div>
+      </div>
+      <!-- banner -->
+     <section class="section bg-light w-100 h-300 position-relative overflow-hidden mid-header">
+        <img src="../img/banner/banner.jpg" class="w-100 h-100 object-fit-cover" alt="" srcset="">
+        <div class="overlay position-absolute bottom-0 left-0 right-0 h-100 w-100 py-5">
+          <div class="container">
+            <div class="w-75 py-3 mx-auto header-block">
+            <h6 class="text-center fw-bold display-5  letter-spacing text-white">Notre Espace Multimedia.</h6>
+            <div class="flex-align-center gap-2 justify-content-center">
+              <a href="../index.html" class="text-decoration-none text-yellow">Home </a>
+              <i class="fa-solid fa-angle-right fs-13 mt-1 text-yellow"></i>
+              <a href="#"  class="text-decoration-none text-yellow">Multimedia </a>
+            </div>
+          </div>
+          </div>
+        </div>
+        
+      </section>
+    </header>
+    <!-- about -->
+   <section class="section p-y-5 bg-white">
+      <div class="container">
+         <div class="tabs mb-4">
+            <div role="tablist" aria-label="tabs component"
+                class="tabs-btn-container h-40 d-flex justify-content-center align-items-center gap-3 mb-5">
+                <button role="tab" aria-controls="panel-1" id="tab-1" type="button" aria-selected="true" tabindex="0"
+                    class="tab h-40 btn rounded-0 border-0 fw-400 px-0  text-black-50 active-tab">Podcast Video</button>
+                <button role="tab" aria-controls="panel-2" id="tab-2" type="button" aria-selected="false" tabindex="-1"
+                    class="tab h-40 btn rounded-0 border-0 fw-400  text-black-50">Podcast Audio</button>
+            </div>
+        </div>
+
+          <div id="panel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1" class="tab-panel-content  active-tab-content">
+              <div class="row gy-3 gx-3">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                 
+                    <div class="card-container px-3 py-3  rounded-4 ">
+                       <a href="show-video.html">
+                    <div class="card-cover w-100 rounded-2  overflow-hidden position-relative mb-3">
+                      <img src="../img/defaultbg.jpg" class="w-100 " alt="" srcset="">
+                       <a href="show-video.html" class="play-icon bg-yellow position-absolute rounded-pill text-white">
+                        <i class="fa-solid fa-play"></i>
+                       </a>
+                    </div>
+                    <div class="card-content  ">
+                      <div class="w-80">
+                        <h5 class="text-yellow fw-500 fs-4">Une maladie incurable approche</h5>
+                      </div>
+                      <p class=" mb-2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos magni consequatur in dignissimos..</p>
+                        <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <div class="d-flex justify-content-between ">
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-regular fa-clock fs-14"></i></div>
+                          <span class="fs-14">5m:3s</span>
+                        </div>
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-solid fa-calendar fs-14"></i></div>
+                          <span class="fs-14">20 Juin 2023</span>
+                        </div>
+                     </div>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                      <div class="flex-align-center gap-2 ">
+                        <div class="profile rounded-pill bg-lighter overflow-hidden">
+                          <img src="../img/profile/prof.png" class="w-100" alt="" srcset="">
+                        </div>
+                        <h6 class=" mt-2 ">H. Kevin Handy</h6>
+                      </div>
+                    </div>
+                   </a>
+                  </div>
+                </div>
+                 <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                 
+                    <div class="card-container px-3 py-3  rounded-4 ">
+                       <a href="show-video.html">
+                    <div class="card-cover w-100 rounded-2  overflow-hidden position-relative mb-3">
+                      <img src="../img/defaultbg.jpg" class="w-100 " alt="" srcset="">
+                       <a href="show-video.html" class="play-icon bg-yellow position-absolute rounded-pill text-white">
+                        <i class="fa-solid fa-play"></i>
+                       </a>
+                    </div>
+                    <div class="card-content  ">
+                      <div class="w-80">
+                        <h5 class="text-yellow fw-500 fs-4">Une maladie incurable approche</h5>
+                      </div>
+                      <p class=" mb-2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos magni consequatur in dignissimos..</p>
+                        <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <div class="d-flex justify-content-between ">
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-regular fa-clock fs-14"></i></div>
+                          <span class="fs-14">5m:3s</span>
+                        </div>
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-solid fa-calendar fs-14"></i></div>
+                          <span class="fs-14">20 Juin 2023</span>
+                        </div>
+                     </div>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                      <div class="flex-align-center gap-2 ">
+                        <div class="profile rounded-pill bg-lighter overflow-hidden">
+                          <img src="../img/profile/prof.png" class="w-100" alt="" srcset="">
+                        </div>
+                        <h6 class=" mt-2 ">H. Kevin Handy</h6>
+                      </div>
+                    </div>
+                   </a>
+                  </div>
+                </div>
+                 <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                 
+                    <div class="card-container px-3 py-3  rounded-4 ">
+                       <a href="show-video.html">
+                    <div class="card-cover w-100 rounded-2  overflow-hidden position-relative mb-3">
+                      <img src="../img/defaultbg.jpg" class="w-100 " alt="" srcset="">
+                       <a href="show-video.html" class="play-icon bg-yellow position-absolute rounded-pill text-white">
+                        <i class="fa-solid fa-play"></i>
+                       </a>
+                    </div>
+                    <div class="card-content  ">
+                      <div class="w-80">
+                        <h5 class="text-yellow fw-500 fs-4">Une maladie incurable approche</h5>
+                      </div>
+                      <p class=" mb-2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos magni consequatur in dignissimos..</p>
+                        <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <div class="d-flex justify-content-between ">
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-regular fa-clock fs-14"></i></div>
+                          <span class="fs-14">5m:3s</span>
+                        </div>
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-solid fa-calendar fs-14"></i></div>
+                          <span class="fs-14">20 Juin 2023</span>
+                        </div>
+                     </div>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                      <div class="flex-align-center gap-2 ">
+                        <div class="profile rounded-pill bg-lighter overflow-hidden">
+                          <img src="../img/profile/prof.png" class="w-100" alt="" srcset="">
+                        </div>
+                        <h6 class=" mt-2 ">H. Kevin Handy</h6>
+                      </div>
+                    </div>
+                   </a>
+                  </div>
+                </div>
+               <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                 
+                    <div class="card-container px-3 py-3  rounded-4 ">
+                       <a href="show-video.html">
+                    <div class="card-cover w-100 rounded-2  overflow-hidden position-relative mb-3">
+                      <img src="../img/defaultbg.jpg" class="w-100 " alt="" srcset="">
+                       <a href="show-video.html" class="play-icon bg-yellow position-absolute rounded-pill text-white">
+                        <i class="fa-solid fa-play"></i>
+                       </a>
+                    </div>
+                    <div class="card-content  ">
+                      <div class="w-80">
+                        <h5 class="text-yellow fw-500 fs-4">Une maladie incurable approche</h5>
+                      </div>
+                      <p class=" mb-2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos magni consequatur in dignissimos..</p>
+                        <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <div class="d-flex justify-content-between ">
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-regular fa-clock fs-14"></i></div>
+                          <span class="fs-14">5m:3s</span>
+                        </div>
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-solid fa-calendar fs-14"></i></div>
+                          <span class="fs-14">20 Juin 2023</span>
+                        </div>
+                     </div>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                      <div class="flex-align-center gap-2 ">
+                        <div class="profile rounded-pill bg-lighter overflow-hidden">
+                          <img src="../img/profile/prof.png" class="w-100" alt="" srcset="">
+                        </div>
+                        <h6 class=" mt-2 ">H. Kevin Handy</h6>
+                      </div>
+                    </div>
+                   </a>
+                  </div>
+                </div>
+
+               <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                 
+                    <div class="card-container px-3 py-3  rounded-4 ">
+                       <a href="show-video.html">
+                    <div class="card-cover w-100 rounded-2  overflow-hidden position-relative mb-3">
+                      <img src="../img/defaultbg.jpg" class="w-100 " alt="" srcset="">
+                       <a href="show-video.html" class="play-icon bg-yellow position-absolute rounded-pill text-white">
+                        <i class="fa-solid fa-play"></i>
+                       </a>
+                    </div>
+                    <div class="card-content  ">
+                      <div class="w-80">
+                        <h5 class="text-yellow fw-500 fs-4">Une maladie incurable approche</h5>
+                      </div>
+                      <p class=" mb-2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos magni consequatur in dignissimos..</p>
+                        <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <div class="d-flex justify-content-between ">
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-regular fa-clock fs-14"></i></div>
+                          <span class="fs-14">5m:3s</span>
+                        </div>
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-solid fa-calendar fs-14"></i></div>
+                          <span class="fs-14">20 Juin 2023</span>
+                        </div>
+                     </div>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                      <div class="flex-align-center gap-2 ">
+                        <div class="profile rounded-pill bg-lighter overflow-hidden">
+                          <img src="../img/profile/prof.png" class="w-100" alt="" srcset="">
+                        </div>
+                        <h6 class=" mt-2 ">H. Kevin Handy</h6>
+                      </div>
+                    </div>
+                   </a>
+                  </div>
+                </div>
+                 <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                 
+                    <div class="card-container px-3 py-3  rounded-4 ">
+                       <a href="show-video.html">
+                    <div class="card-cover w-100 rounded-2  overflow-hidden position-relative mb-3">
+                      <img src="../img/defaultbg.jpg" class="w-100 " alt="" srcset="">
+                       <a href="show-video.html" class="play-icon bg-yellow position-absolute rounded-pill text-white">
+                        <i class="fa-solid fa-play"></i>
+                       </a>
+                    </div>
+                    <div class="card-content  ">
+                      <div class="w-80">
+                        <h5 class="text-yellow fw-500 fs-4">Une maladie incurable approche</h5>
+                      </div>
+                      <p class=" mb-2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos magni consequatur in dignissimos..</p>
+                        <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <div class="d-flex justify-content-between ">
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-regular fa-clock fs-14"></i></div>
+                          <span class="fs-14">5m:3s</span>
+                        </div>
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-solid fa-calendar fs-14"></i></div>
+                          <span class="fs-14">20 Juin 2023</span>
+                        </div>
+                     </div>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                      <div class="flex-align-center gap-2 ">
+                        <div class="profile rounded-pill bg-lighter overflow-hidden">
+                          <img src="../img/profile/prof.png" class="w-100" alt="" srcset="">
+                        </div>
+                        <h6 class=" mt-2 ">H. Kevin Handy</h6>
+                      </div>
+                    </div>
+                   </a>
+                  </div>
+                </div>
+               <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                 
+                    <div class="card-container px-3 py-3  rounded-4 ">
+                       <a href="show-video.html">
+                    <div class="card-cover w-100 rounded-2  overflow-hidden position-relative mb-3">
+                      <img src="../img/defaultbg.jpg" class="w-100 " alt="" srcset="">
+                       <a href="show-video.html" class="play-icon bg-yellow position-absolute rounded-pill text-white">
+                        <i class="fa-solid fa-play"></i>
+                       </a>
+                    </div>
+                    <div class="card-content  ">
+                      <div class="w-80">
+                        <h5 class="text-yellow fw-500 fs-4">Une maladie incurable approche</h5>
+                      </div>
+                      <p class=" mb-2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos magni consequatur in dignissimos..</p>
+                        <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <div class="d-flex justify-content-between ">
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-regular fa-clock fs-14"></i></div>
+                          <span class="fs-14">5m:3s</span>
+                        </div>
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-solid fa-calendar fs-14"></i></div>
+                          <span class="fs-14">20 Juin 2023</span>
+                        </div>
+                     </div>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                      <div class="flex-align-center gap-2 ">
+                        <div class="profile rounded-pill bg-lighter overflow-hidden">
+                          <img src="../img/profile/prof.png" class="w-100" alt="" srcset="">
+                        </div>
+                        <h6 class=" mt-2 ">H. Kevin Handy</h6>
+                      </div>
+                    </div>
+                   </a>
+                  </div>
+                </div>
+                 <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                 
+                    <div class="card-container px-3 py-3  rounded-4 ">
+                       <a href="show-video.html">
+                    <div class="card-cover w-100 rounded-2  overflow-hidden position-relative mb-3">
+                      <img src="../img/defaultbg.jpg" class="w-100 " alt="" srcset="">
+                       <a href="show-video.html" class="play-icon bg-yellow position-absolute rounded-pill text-white">
+                        <i class="fa-solid fa-play"></i>
+                       </a>
+                    </div>
+                    <div class="card-content  ">
+                      <div class="w-80">
+                        <h5 class="text-yellow fw-500 fs-4">Une maladie incurable approche</h5>
+                      </div>
+                      <p class=" mb-2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos magni consequatur in dignissimos..</p>
+                        <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <div class="d-flex justify-content-between ">
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-regular fa-clock fs-14"></i></div>
+                          <span class="fs-14">5m:3s</span>
+                        </div>
+                        <div class="flex-align-center  gap-2 mb-2">
+                          <div class="clock"><i class="fa-solid fa-calendar fs-14"></i></div>
+                          <span class="fs-14">20 Juin 2023</span>
+                        </div>
+                     </div>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                      <div class="flex-align-center gap-2 ">
+                        <div class="profile rounded-pill bg-lighter overflow-hidden">
+                          <img src="../img/profile/prof.png" class="w-100" alt="" srcset="">
+                        </div>
+                        <h6 class=" mt-2 ">H. Kevin Handy</h6>
+                      </div>
+                    </div>
+                   </a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div id="panel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2" class="tab-panel-content ">
+              <div class="row gx-2 gy-2">
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                  <div class="card-container px-3 py-3 bg-gray-1 rounded-4">
+                      <div class="w-100 audio-cover bg-yellow rounded-2 mb-3 overflow-hidden">
+                        <img src="../img/defaultbg.jpg" class="w-100 h-100 object-fit-cover" alt="" srcset="">
+                      </div>
+                    <div class="card-content  ">
+                       <h5 class="text-yellow fw-500 mb-2">9 Disgusting Facts about Thanksgiving</h5>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <audio>
+                    <source src="https://ia800905.us.archive.org/19/items/FREE_background_music_dhalius/backsound.mp3"  type="audio/mp3">
+                      </audio> 
+
+                      <div class="audio-player bg-white rounded-2 gap-2 w-100 p-2">
+                        
+                        <div class="controls">
+                          <div class="play-container">
+                            <div class="toggle-play play bg-gray-1 rounded-pill">
+                              <i class="fa-solid fa-play"></i>
+                             </div>
+                          </div>
+                         
+                          <div class="volume-container">
+                            <div class="volume-button">
+                              <div class="volume icono-volumeMedium"></div>
+                            </div>
+                            
+                            <div class="volume-slider">
+                              <div class="volume-percentage"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline position-relative bg-gray-1">
+                          <div class="progress"></div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                   
+                  </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                  <div class="card-container px-3 py-3 bg-gray-1 rounded-4">
+                      <div class="w-100 audio-cover bg-yellow rounded-2 mb-3 overflow-hidden">
+                        <img src="../img/defaultbg.jpg" class="w-100 h-100 object-fit-cover" alt="" srcset="">
+                      </div>
+                    <div class="card-content  ">
+                       <h5 class="text-yellow fw-500 mb-2">9 Disgusting Facts about Thanksgiving</h5>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <audio>
+                    <source src="https://ia800905.us.archive.org/19/items/FREE_background_music_dhalius/backsound.mp3"  type="audio/mp3">
+                      </audio> 
+
+                      <div class="audio-player bg-white rounded-2 gap-2 w-100 p-2">
+                        
+                        <div class="controls">
+                          <div class="play-container">
+                            <div class="toggle-play play bg-gray-1 rounded-pill">
+                              <i class="fa-solid fa-play"></i>
+                             </div>
+                          </div>
+                         
+                          <div class="volume-container">
+                            <div class="volume-button">
+                              <div class="volume icono-volumeMedium"></div>
+                            </div>
+                            
+                            <div class="volume-slider">
+                              <div class="volume-percentage"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline position-relative bg-gray-1">
+                          <div class="progress"></div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                   
+                  </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                  <div class="card-container px-3 py-3 bg-gray-1 rounded-4">
+                      <div class="w-100 audio-cover bg-yellow rounded-2 mb-3 overflow-hidden">
+                        <img src="../img/defaultbg.jpg" class="w-100 h-100 object-fit-cover" alt="" srcset="">
+                      </div>
+                    <div class="card-content  ">
+                       <h5 class="text-yellow fw-500 mb-2">9 Disgusting Facts about Thanksgiving</h5>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <audio>
+                    <source src="https://ia800905.us.archive.org/19/items/FREE_background_music_dhalius/backsound.mp3"  type="audio/mp3">
+                      </audio> 
+
+                      <div class="audio-player bg-white rounded-2 gap-2 w-100 p-2">
+                        
+                        <div class="controls">
+                          <div class="play-container">
+                            <div class="toggle-play play bg-gray-1 rounded-pill">
+                              <i class="fa-solid fa-play"></i>
+                             </div>
+                          </div>
+                         
+                          <div class="volume-container">
+                            <div class="volume-button">
+                              <div class="volume icono-volumeMedium"></div>
+                            </div>
+                            
+                            <div class="volume-slider">
+                              <div class="volume-percentage"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline position-relative bg-gray-1">
+                          <div class="progress"></div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                   
+                  </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                  <div class="card-container px-3 py-3 bg-gray-1 rounded-4">
+                      <div class="w-100 audio-cover bg-yellow rounded-2 mb-3 overflow-hidden">
+                        <img src="../img/defaultbg.jpg" class="w-100 h-100 object-fit-cover" alt="" srcset="">
+                      </div>
+                    <div class="card-content  ">
+                       <h5 class="text-yellow fw-500 mb-2">9 Disgusting Facts about Thanksgiving</h5>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <audio>
+                    <source src="https://ia800905.us.archive.org/19/items/FREE_background_music_dhalius/backsound.mp3"  type="audio/mp3">
+                      </audio> 
+
+                      <div class="audio-player bg-white rounded-2 gap-2 w-100 p-2">
+                        
+                        <div class="controls">
+                          <div class="play-container">
+                            <div class="toggle-play play bg-gray-1 rounded-pill">
+                              <i class="fa-solid fa-play"></i>
+                             </div>
+                          </div>
+                         
+                          <div class="volume-container">
+                            <div class="volume-button">
+                              <div class="volume icono-volumeMedium"></div>
+                            </div>
+                            
+                            <div class="volume-slider">
+                              <div class="volume-percentage"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline position-relative bg-gray-1">
+                          <div class="progress"></div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                   
+                  </div>
+                </div>
+                 <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                  <div class="card-container px-3 py-3 bg-gray-1 rounded-4">
+                      <div class="w-100 audio-cover bg-yellow rounded-2 mb-3 overflow-hidden">
+                        <img src="../img/defaultbg.jpg" class="w-100 h-100 object-fit-cover" alt="" srcset="">
+                      </div>
+                    <div class="card-content  ">
+                       <h5 class="text-yellow fw-500 mb-2">9 Disgusting Facts about Thanksgiving</h5>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <audio>
+                    <source src="https://ia800905.us.archive.org/19/items/FREE_background_music_dhalius/backsound.mp3"  type="audio/mp3">
+                      </audio> 
+
+                      <div class="audio-player bg-white rounded-2 gap-2 w-100 p-2">
+                        
+                        <div class="controls">
+                          <div class="play-container">
+                            <div class="toggle-play play bg-gray-1 rounded-pill">
+                              <i class="fa-solid fa-play"></i>
+                             </div>
+                          </div>
+                         
+                          <div class="volume-container">
+                            <div class="volume-button">
+                              <div class="volume icono-volumeMedium"></div>
+                            </div>
+                            
+                            <div class="volume-slider">
+                              <div class="volume-percentage"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline position-relative bg-gray-1">
+                          <div class="progress"></div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                   
+                  </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                  <div class="card-container px-3 py-3 bg-gray-1 rounded-4">
+                      <div class="w-100 audio-cover bg-yellow rounded-2 mb-3 overflow-hidden">
+                        <img src="../img/defaultbg.jpg" class="w-100 h-100 object-fit-cover" alt="" srcset="">
+                      </div>
+                    <div class="card-content  ">
+                       <h5 class="text-yellow fw-500 mb-2">9 Disgusting Facts about Thanksgiving</h5>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <audio>
+                    <source src="https://ia800905.us.archive.org/19/items/FREE_background_music_dhalius/backsound.mp3"  type="audio/mp3">
+                      </audio> 
+
+                      <div class="audio-player bg-white rounded-2 gap-2 w-100 p-2">
+                        
+                        <div class="controls">
+                          <div class="play-container">
+                            <div class="toggle-play play bg-gray-1 rounded-pill">
+                              <i class="fa-solid fa-play"></i>
+                             </div>
+                          </div>
+                         
+                          <div class="volume-container">
+                            <div class="volume-button">
+                              <div class="volume icono-volumeMedium"></div>
+                            </div>
+                            
+                            <div class="volume-slider">
+                              <div class="volume-percentage"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline position-relative bg-gray-1">
+                          <div class="progress"></div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                   
+                  </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                  <div class="card-container px-3 py-3 bg-gray-1 rounded-4">
+                      <div class="w-100 audio-cover bg-yellow rounded-2 mb-3 overflow-hidden">
+                        <img src="../img/defaultbg.jpg" class="w-100 h-100 object-fit-cover" alt="" srcset="">
+                      </div>
+                    <div class="card-content  ">
+                       <h5 class="text-yellow fw-500 mb-2">9 Disgusting Facts about Thanksgiving</h5>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <audio>
+                    <source src="https://ia800905.us.archive.org/19/items/FREE_background_music_dhalius/backsound.mp3"  type="audio/mp3">
+                      </audio> 
+
+                      <div class="audio-player bg-white rounded-2 gap-2 w-100 p-2">
+                        
+                        <div class="controls">
+                          <div class="play-container">
+                            <div class="toggle-play play bg-gray-1 rounded-pill">
+                              <i class="fa-solid fa-play"></i>
+                             </div>
+                          </div>
+                         
+                          <div class="volume-container">
+                            <div class="volume-button">
+                              <div class="volume icono-volumeMedium"></div>
+                            </div>
+                            
+                            <div class="volume-slider">
+                              <div class="volume-percentage"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline position-relative bg-gray-1">
+                          <div class="progress"></div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                   
+                  </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-md-6 col-sm-12">
+                  <div class="card-container px-3 py-3 bg-gray-1 rounded-4">
+                      <div class="w-100 audio-cover bg-yellow rounded-2 mb-3 overflow-hidden">
+                        <img src="../img/defaultbg.jpg" class="w-100 h-100 object-fit-cover" alt="" srcset="">
+                      </div>
+                    <div class="card-content  ">
+                       <h5 class="text-yellow fw-500 mb-2">9 Disgusting Facts about Thanksgiving</h5>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                      <div class="divide w-100 bg-light-5 mb-3"></div>
+                     <audio>
+                    <source src="https://ia800905.us.archive.org/19/items/FREE_background_music_dhalius/backsound.mp3"  type="audio/mp3">
+                      </audio> 
+
+                      <div class="audio-player bg-white rounded-2 gap-2 w-100 p-2">
+                        
+                        <div class="controls">
+                          <div class="play-container">
+                            <div class="toggle-play play bg-gray-1 rounded-pill">
+                              <i class="fa-solid fa-play"></i>
+                             </div>
+                          </div>
+                         
+                          <div class="volume-container">
+                            <div class="volume-button">
+                              <div class="volume icono-volumeMedium"></div>
+                            </div>
+                            
+                            <div class="volume-slider">
+                              <div class="volume-percentage"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline position-relative bg-gray-1">
+                          <div class="progress"></div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <footer class="p-y-5">
+      <div class="container">
+         <div class="container">
+        <div class="row mb-4 gx-5">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h5 class="text-uppercase fw-bold text-light fs-6 mb-3">About Us</h5>
+                <div class="w-180 headline-underline mb-3 position-relative"></div>
+                <p class="fw-light text-dark-lighter">
+                    You can show all events here to let people take the chances to get involve
+                    You can show all events here to let people take the chances to get involve.
+                </p>
+               
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h5 class="text-uppercase fw-bold text-light fs-6 mb-3">Navigation Rapide</h5>
+                <div class="w-180 headline-underline mb-3 position-relative"></div>
+                <div class="d-flex flex-column mb-3">
+                    <a href="../index.html" class="text-dark-lighter ">Accueil</a>
+                    <a href="multimedia.html" class="text-dark-lighter ">Multimedia</a>
+                    <a href="partenership.html" class="text-dark-lighter ">Partenariat</a>
+                    <a href="about.html" class="text-dark-lighter ">A Propos</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h5 class="text-uppercase fw-bold text-light fs-6 mb-3">Info & Aide</h5>
+                <div class="w-180 headline-underline mb-3 position-relative"></div>
+                <div class="d-flex flex-column mb-3">
+                    <a href="mission.html" class="text-dark-light">Notre Mission</a>
+                    <a href="contact.html" class="text-dark-light">Contact</a>
+                    <a href="#" class="text-dark-light">Faire un Don</a>
+                </div>  
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 ">
+                <h5 class="text-uppercase fw-bold text-light fs-6 mb-3">Our Newsletter</h5>
+                <div class="w-180 headline-underline mb-4 position-relative"></div>
+                <div class="footer-news mb-3">
+                    <form action="" method="post" class="d-flex ">
+                        <input type="search" name="subscribe_mail" placeholder="info@fedhap.com" class="w-100 px-2 py-2 bg-lightgray-50">
+                        <button class="btn px-2 py-2 bg-yellow text-white rounded-1">subscribe</button>
+                    </form>
+                </div>
+
+                <div class="d-flex gap-2">
+                     <a href="https://www.facebook.com/fenap.plus" target="_blank" class="footer-social btn w-40 h-40 rounded-pill bg-gray-1"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/fedhap_plus/" target="_blank" class="footer-social btn w-40 h-40 rounded-pill bg-gray-1"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="footer-social btn w-40 h-40 rounded-pill bg-gray-1">
+                    <i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="footer-social btn w-40 h-40 rounded-pill bg-gray-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-separator mb-4"></div>
+        <p class="text-dark-lighter"><span class="text-info"><script>document.write(new Date().getFullYear())</script></span> , All right reserve &copy; Made with &hearts; by <spanclass="text-secondary">viactechnology</span></p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/accordion.js"></script>
+    <script src="../js/tabs.js"></script>
+    <script src="../js/audio.js"></script>
+    <script src="../js/slider.js"></script>
+    <script src="../js/navbar.js"></script>
+
+    
+
+  </body>
+</html>
