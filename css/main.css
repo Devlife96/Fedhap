@@ -23,13 +23,13 @@ body {
 a {
   text-decoration: none;
 }
-.page-wrap.fixed-top {
+header.fixed-top {
   background: #fff !important;
 }
-.page-wrap + .header {
-  margin-top: 5rem;
+header + .header {
+  margin-top: 6rem;
 }
-.page-wrap + .mid-header {
+header + .mid-header {
   margin-top: 5rem;
 }
 
