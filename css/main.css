@@ -33,6 +33,9 @@ header + .mid-header {
   margin-top: 5rem;
 }
 
+header + .blog {
+  margin-top: 5rem;
+}
 .video {
   margin-top: 5rem;
 }
@@ -409,6 +412,18 @@ header + .mid-header {
   background-size: cover;
   background-position: center;
 }
+.blog-profile {
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  background-position: center;
+}
+.blog-profile-detail {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+}
 .flex-align-center {
   display: flex;
   justify-content: start;
@@ -706,4 +721,21 @@ footer button:hover {
   height: 100%;
   transition: 0.25s;
   left: 0;
+}
+
+.blog-btn {
+  background: #fff;
+  transition: background 0.3s ease-in-out;
+}
+.blog-btn:hover {
+  background: #ed502e;
+  color: #fff;
+}
+
+.img-post-list {
+  width: 180px;
+}
+.img-post-list .img-blog {
+  width: 100%;
+  height: auto;
 }

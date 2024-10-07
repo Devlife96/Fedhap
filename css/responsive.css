@@ -74,6 +74,10 @@
   ._big {
     width: 100% !important;
   }
+
+  .img-post-list {
+    width: 100% !important;
+  }
   footer a,
   footer p {
     font-size: 1rem !important;
@@ -124,6 +128,10 @@
   ._box {
     height: auto !important;
     margin-bottom: 3rem;
+  }
+  .img-post-list {
+    width: 350px !important;
+    height: 350px !important;
   }
   footer a,
   footer p {
