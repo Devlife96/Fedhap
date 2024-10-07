@@ -735,7 +735,6 @@ footer button:hover {
 .img-post-list {
   width: 180px;
 }
-.img-post-list .img-blog {
-  width: 100%;
-  height: auto;
+.img-post-list img {
+  width: 180px;
 }

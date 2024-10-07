@@ -77,6 +77,12 @@
 
   .img-post-list {
     width: 100% !important;
+    height: 100%;
+    padding: 0 !important;
+  }
+  .img-post-list img {
+    width: 100% !important;
+    padding: 1rem 1rem;
   }
   footer a,
   footer p {
@@ -130,8 +136,13 @@
     margin-bottom: 3rem;
   }
   .img-post-list {
-    width: 350px !important;
-    height: 350px !important;
+    width: 100% !important;
+    height: 100%;
+    padding: 0 !important;
+  }
+  .img-post-list img {
+    width: 100% !important;
+    padding: 1rem 1rem;
   }
   footer a,
   footer p {
